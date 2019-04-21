@@ -1,5 +1,5 @@
 <?php
-namespace CompressImg;
+namespace tudibao\CompressImg;
 /**
  * 图片压缩类：通过缩放来压缩。
  * 如果要保持源图比例，把参数$percent保持为1即可。
