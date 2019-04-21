@@ -1,5 +1,5 @@
 <?php
-namespace tudibao\CompressImg;
+namespace CompressImg;
 /**
  * type description here.
  * @author: david

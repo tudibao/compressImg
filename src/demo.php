@@ -7,7 +7,7 @@
  * Created: 2019-04-21 16:21
  * $Id$
  */
-namespace tudibao\CompressImg;
+namespace CompressImg;
 
 class Demo{
     /**
