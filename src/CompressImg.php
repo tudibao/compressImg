@@ -74,7 +74,7 @@ class CompressImg{
      */
     public function __construct($src, $percent = 0)
     {
-        $this->conf = new Conf();
+        $this->conf = (new Conf())->getConf();
         $this->src = $src;
         $this->percent = $percent ?: 0;
         $this->debug = $this->conf['ImgOptDebug'];

@@ -25,6 +25,9 @@ class Conf{
         if (is_dir($logDir) && !is_writable($logDir)){
             mkdir($logDir, 0755, true);
         }
+    }
+
+    public function getConf(){
         return $this->vars;
     }
 }
