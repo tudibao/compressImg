@@ -9,10 +9,11 @@
  */
 
 require "../vendor/autoload.php";
+use CompressImg\CompressImg;
 
 $image = '1.jpg';
 $saveFileame = '2.jpg';
-(new CompressImg\CompressImg($image))
+(new CompressImg($image))
     ->setQuality(50)
     ->setMaxWidth(960)
     ->setCopyMode(false)
