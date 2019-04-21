@@ -1,0 +1,39 @@
+{
+  "name": "tudibao/compressImg",
+  "description": "Compress Image",
+  "keywords": ["GD", "Imagick", "CompressImage", "code", "php"],
+  "homepage": "https://github.com/tudibao/compressImg",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David",
+      "email": "carng@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "ext-gd": "2.*",
+    "ImageMagick": "3.*",
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7|^6.0"
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "tudibao\\compressImg\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tudibao\\compressImg\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
